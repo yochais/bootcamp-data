@@ -1,0 +1,7 @@
+http://expfactory.org/experiments/stroop/preview
+
+https://github.com/IanEisenberg/expfactory-analysis/blob/working_branch/expanalysis/experiments/jspsych_processing.py#L1535
+
+useful syntax in pandas for quick plotting (say df = pandas.DataFrame(data))
+
+df.query('correct == True').groupby('condition').rt.hist()
